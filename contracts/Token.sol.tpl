@@ -5,8 +5,8 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 
-contract TestToken is ERC20{
-    constructor(uint256 totalSupply) ERC20("TestToken", "TST"){
+contract {{className}} is ERC20{
+    constructor(uint256 totalSupply) ERC20("{{name}}", "{{symbol}}"){
         _mint(msg.sender, totalSupply);
     }
 }

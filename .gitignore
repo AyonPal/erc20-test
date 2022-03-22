@@ -7,3 +7,7 @@ typechain
 #Hardhat files
 cache
 artifacts
+#generated .sol files
+contracts/*.sol
+#generated deploy .js scripts
+scripts/*.js
