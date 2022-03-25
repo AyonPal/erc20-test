@@ -8,6 +8,6 @@ typechain
 cache
 artifacts
 #generated .sol files
-contracts/*.sol
+# contracts/*.sol
 #generated deploy .js scripts
 scripts/*.js
